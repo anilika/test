@@ -86,6 +86,10 @@ class RknTest
   end
 end
 
+def blah
+  true
+end
+
 my_rkn_data = RknData.new(ARGV)
 RknTest.new(my_rkn_data.file_name, my_rkn_data.proto)
 # my_test = RknTest.new('urls', 'https')
